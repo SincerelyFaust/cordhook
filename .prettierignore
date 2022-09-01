@@ -2,6 +2,7 @@
 build
 coverage
 target
+dist
 
 # next.js
 .next
