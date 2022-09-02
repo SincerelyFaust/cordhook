@@ -5,7 +5,7 @@
 # Cordhook
 
 - 🪝 **Cordhook** is an application for sending webhooks on Discord with ease.
-- 🛠 **Built** with Tauri and Next.js
+- 🛠 **Built** with Tauri and Next.js.
 - 🌐 **Web version** can be found [here.](https://cordhook.vercel.app)
 - 🖥 **Desktop version** can be downloaded [here.](https://github.com/SincerelyFaust/cordhook/releases)
 
@@ -38,7 +38,7 @@ There are two ways to run the application:
 pnpm dev
 ```
 
-In a browser, load the page [localhost:3000](http://localhost:1420) and you should now be able to test the application while making your changes.
+In a browser, load the page [localhost:1420](http://localhost:1420) and you should now be able to test the application while making your changes.
 The dev server has hot reloading so no need to restart the instance when it's running!
 
 #### Tauri
