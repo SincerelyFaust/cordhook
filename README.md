@@ -5,7 +5,8 @@
 # Cordhook
 
 - 🪝 **Cordhook** is an application for sending webhooks on Discord with ease.
-- 🛠 **Built** with Tauri and Next.js.
+- 🛠 **Built** with Tauri for desktop and Next.js for web.
+- 🎨 **Styled** with Styled Components.
 - 🌐 **Web version** can be found [here.](https://cordhook.vercel.app)
 - 🖥 **Desktop version** can be downloaded [here.](https://github.com/SincerelyFaust/cordhook/releases)
 

@@ -1,14 +1,42 @@
 import Image from "next/image";
-import logo from "../assets/logo.png";
+import CordhookLogo from "../assets/logos/logo.webp";
+import styled from "styled-components";
+
+const Wrapper = styled.div`
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  gap: 60px;
+  display: flex;
+  background-image: linear-gradient(to right, #9333ea, #db2777);
+  text-align: center;
+  padding: 20px;
+`;
+
+const Title = styled.p`
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  @media (max-width: 1025px) {
+    font-size: 1.5em;
+  }
+`;
 
 function App() {
   return (
-    <div className="h-screen w-screen justify-center items-center flex flex-col gap-20 bg-gradient-to-r from-purple-500 to-pink-600">
-      <Image width={110} height={160} src={logo} alt="Next logo"></Image>
-      <p className="text-2xl font-bold text-white">
-        Welcome to Cordhook, coming soon.
-      </p>
-    </div>
+    <Wrapper>
+      <Image
+        width={110}
+        height={160}
+        src={CordhookLogo}
+        alt="Cordhook logo"
+        objectFit={"contain"}
+        priority
+      ></Image>
+      <Title>Welcome to Cordhook, coming soon.</Title>
+    </Wrapper>
   );
 }
 
