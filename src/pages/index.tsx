@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   gap: 60px;
   display: flex;
-  background-image: linear-gradient(to right, #9333ea, #db2777);
+  background-image: linear-gradient(to right, #da22ff, #9733ee);
   text-align: center;
   padding: 20px;
 `;
