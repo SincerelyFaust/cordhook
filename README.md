@@ -6,7 +6,7 @@
 
 > ⚠️ Cordhook is under active development and not all features that are currently available are polished. The UI also might have some tiny bugs that will be squashed in the near future. The plan is to also turn this repository into a monorepo and separate platform-specific code from UI to allow for reuse of UI components in the desktop and web application.
 
-- 🪝 **Cordhook** is an application for sending webhooks on Discord with ease.
+- 🪝 **Cordhook** is an application for sending webhooks to Discord with ease.
 - 🛠 **Built** with [Tauri](https://tauri.app) for desktop and [Next.js](https://nextjs.org/) for web.
 - 🎨 **Styled** with [Styled Components](https://styled-components.com).
 - ⚙️ **Rust** on the back-end, TypeScript on the front-end.
