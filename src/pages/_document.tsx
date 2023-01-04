@@ -27,6 +27,7 @@ export default class CordhookDocument extends Document {
       sheet.seal();
     }
   }
+
   render(): JSX.Element {
     return <Page />;
   }
@@ -38,11 +39,9 @@ const Page = () => (
       <meta charSet="UTF-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="viewport" content="width=device-width" />
       <meta name="apple-mobile-web-app-title" content="Cordhook" />
       <link rel="canonical" href="https://cordhook.vercel.app" />
-      <title>Cordhook</title>
-      <link rel="icon" href="/assets/logos/logo.webp" />
+      <link rel="icon" href="/logos/logomark-background.webp" />
       <meta
         name="description"
         content="Cordhook is an application for sending webhooks on Discord."
@@ -57,9 +56,9 @@ const Page = () => (
         name="og:description"
         content="Cordhook is an application for sending webhooks on Discord."
       />
-      <meta property="og:image" content="https://i.imgur.com/In4T49n.png" />
+      <meta property="og:image" content="https://i.imgur.com/wmwqCnY.png" />
       <meta property="og:site_name" content="Cordhook" />
-      <meta name="theme-color" content="#a855f7"></meta>
+      <meta name="theme-color" content="#9733ee"></meta>
     </Head>
     <body>
       <Main />

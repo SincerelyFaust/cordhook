@@ -11,12 +11,11 @@ export const GlobalStyles = createGlobalStyle`
 html {
   background: ${({ theme }) => theme.background.backgroundColor};
   scroll-behavior: smooth;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
-  max-width: 100vw;
-  overflow: hidden;
+  width: 100vw;
 }
 
 ::-webkit-scrollbar {
@@ -31,6 +30,6 @@ body {
 ::-webkit-scrollbar-thumb {
   background: gray;
   border-radius: 8px;
-  outline: 1px solid ${({ theme }) => theme.background.backgroundColorLight}9d;
+  outline: 1px solid ${({ theme }) => theme.background.backgroundColorLight};
 }
 `;

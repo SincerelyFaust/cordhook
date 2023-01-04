@@ -6,10 +6,8 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  experimental: {
-    images: {
-      unoptimized: true,
-    },
+  images: {
+    unoptimized: true,
   },
 };
 

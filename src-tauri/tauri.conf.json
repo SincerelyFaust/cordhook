@@ -7,8 +7,8 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "cordhook",
-    "version": "1.0.0"
+    "productName": "Cordhook",
+    "version": "0.0.1"
   },
   "tauri": {
     "allowlist": {
@@ -56,10 +56,10 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 600,
+        "height": 700,
         "resizable": true,
         "title": "Cordhook",
-        "width": 800
+        "width": 1000
       }
     ]
   }
