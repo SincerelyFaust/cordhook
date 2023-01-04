@@ -10,7 +10,7 @@
 - 🛠 **Built** with [Tauri](https://tauri.app) for desktop and [Next.js](https://nextjs.org/) for web.
 - 🎨 **Styled** with [Styled Components](https://styled-components.com).
 - ⚙️ **Rust** on the back-end, TypeScript on the front-end.
-- 🌐 **Web version** can be found [here.](https://cordhook.vercel.app)
+- 🌐 **Web version** can be found [here.](https://cordhook.app)
 - 🖥 **Desktop version** can be downloaded [here.](https://github.com/SincerelyFaust/cordhook/releases)
     - **Available** for Windows, macOS and Linux.
 
