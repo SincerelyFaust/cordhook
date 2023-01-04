@@ -12,7 +12,7 @@
 - ⚙️ **Rust** on the back-end, TypeScript on the front-end.
 - 🌐 **Web version** can be found [here.](https://cordhook.app)
 - 🖥 **Desktop version** can be downloaded [here.](https://github.com/SincerelyFaust/cordhook/releases)
-    - **Available** for Windows, macOS and Linux.
+  - **Available** for Windows, macOS and Linux.
 
 ## Features
 
@@ -25,7 +25,7 @@
 - 💾 **Save** and load templates.
 - 🪞 **Preview** of what you're sending.
 - 📱 **Mobile** application for Android and iOS.
-    - Will be built using either Tauri Mobile or React Native but most likely React Native.
+  - Will be built using either Tauri Mobile or React Native but most likely React Native.
 
 ## Development
 
