@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Head from "next/head";
 import React, { useState } from "react";
 import { invoke } from "@tauri-apps/api/tauri";
-import DiscordWebhook from "discord-webhook-ts";
 import WebhookSection from "../components/WebhookSection";
 import ContentSection from "../components/ContentSection";
 import EmbedSection from "../components/EmbedSection";
@@ -93,9 +92,12 @@ function App() {
         timestamp: new Date(event.target.timestamp.value).toISOString(),
       });
     } else {
-      const webhook = new DiscordWebhook(event.target.webhook_url.value);
-
-      const requestBody = {
+      fetch(event.target.webhook_url.value, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
         username: event.target.webhook_username.value,
         avatar_url: event.target.webhook_avatar_url.value,
         content: event.target.message.value,
@@ -126,9 +128,8 @@ function App() {
             timestamp: new Date(event.target.timestamp.value),
           },
         ],
-      };
-
-      webhook.execute(requestBody);
+    }),
+  })
     }
   }
 
