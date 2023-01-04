@@ -30,7 +30,7 @@
         "icons/icon.ico"
       ],
       "identifier": "com.marinhedes.cordhook",
-      "longDescription": "An application for sending webhooks on Discord.",
+      "longDescription": "Cordhook is an application for sending webhooks to Discord.",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",

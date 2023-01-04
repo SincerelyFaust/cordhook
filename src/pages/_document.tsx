@@ -44,7 +44,7 @@ const Page = () => (
       <link rel="icon" href="/logos/logomark-background.webp" />
       <meta
         name="description"
-        content="Cordhook is an application for sending webhooks on Discord."
+        content="Cordhook is an application for sending webhooks to Discord."
       />
       <meta property="og:url" content="https://cordhook.vercel.app"></meta>
       <meta property="og:title" content="Cordhook" key="title" />
@@ -54,7 +54,7 @@ const Page = () => (
       />
       <meta
         name="og:description"
-        content="Cordhook is an application for sending webhooks on Discord."
+        content="Cordhook is an application for sending webhooks to Discord."
       />
       <meta property="og:image" content="https://i.imgur.com/wmwqCnY.png" />
       <meta property="og:site_name" content="Cordhook" />
