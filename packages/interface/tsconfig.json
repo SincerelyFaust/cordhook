@@ -1,0 +1,6 @@
+{
+    "extends": "../../packages/config/base.tsconfig.json",
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"],
+  }
+  

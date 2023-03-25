@@ -1,0 +1,8 @@
+{
+  "name": "@cordhook/assets",
+  "private": true,
+  "version": "0.0.1",
+  "repository": "https://github.com/sincerelyfaust/cordhook",
+  "author": "Marin Heđeš",
+  "license": "MIT"
+}

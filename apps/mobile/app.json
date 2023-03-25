@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "cordhook",
+    "slug": "cordhook",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/logos/logomark-background.webp",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logos/logomark-background.webp",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logos/logomark-background.webp",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logos/logomark-background.webp"
+    }
+  }
+}
